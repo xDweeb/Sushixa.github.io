@@ -2,331 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PortFolio</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="images/i.ico" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/ece0f4fd5e.js" crossorigin="anonymous"></script>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body class="scrollbar">
-  <div class="loading">
-    <img class="loading-image" src="https://i.pinimg.com/originals/52/8d/d0/528dd0ec31df022de3328644632a78d9.gif" alt="Loading..." />
-   </div>
-    <section id="title">
-        <!-- Navigation Bar -->
-        <div class="container navcont">
-            <nav class="navbar navbar-expand-lg navbar-dark ">
-                <a class="navbar-brand side" href="">PortFolio</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
-                <span class="navbar-toggler-icon"></span>
-                </button>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-                <div class="collapse navbar-collapse ms-4 navi" id="navbarTogglerDemo02">
-                  <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                      <a class="nav-link " href="#interests">Interests</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="#clubs">Clubs</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="#skills">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="#education">Education</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="#footer">Contact</a>
-                    </li>
-                  </ul>
-                </div>
-            </nav>
+    <!-- Header Section -->
+    <header id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Web Developer | Designer | Creative Thinker</p>
+    </header>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="project1.jpg" alt="Project 1">
+            <h3>Project 1</h3>
+            <p>Description of Project 1.</p>
         </div>
-
-        <div class="intro centered">
-            <button class="pallete pl4"></button>
-            <button class="pallete pl1"></button>
-            <button class="pallete pl2"></button>
-            <button class="pallete pl3"></button>
-            
-            <h4>Hello There,</h4>
-            <h1>I'm Vishal Kumar</h1>
-            <h3>A Tech Enthusiast !!</h3>
-            <br>
-            <!-- I study at The LNM Institute of Information Technology.... -->
-            <h3>The greatest glory in living lies not in never falling, but in rising every time we fall. </h3>
-            <br>
-            <a class="titlebtn" href="mailto:21ucc116@lnmiit.ac.in">Hire Me</a>
-            
+        <div class="project">
+            <img src="project2.jpg" alt="Project 2">
+            <h3>Project 2</h3>
+            <p>Description of Project 2.</p>
         </div>
     </section>
 
-    <section id="interests">
-        
-      
-        <div class="row disp">
-          <div class="card-pad col-lg-4 intcards ">
-            <div class="card" style="width: 16rem;">
-                <ul class="list-group list-group-flush">
-                  <li class="active list-group-item int 1">Web Development</li>
-                  <li class="list-group-item int 2">Graphic Designing</li>
-                  <li class="list-group-item int 3">Game Development</li>
-                  <li class="list-group-item int 4">Competitive Coding</li>
-                  <li class="list-group-item int 5">Cybersecurity</li>
-                </ul>
-              </div>
-          </div>
-          
-          <div class="card-pad col-lg-7 intimg ">
-            <div ><img class="int1" src="images/i1.png" alt=""></div>
-          </div>
-          
-          <div class="card-pad col-lg-1 inth1 ">
-            <h1>Interests</h1>
-          </div>
-          
-        </div>
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, feel free to email me at <a href="mailto:your.email@example.com">your.email@example.com</a>.</p>
     </section>
 
-      <section id="clubs">
-          <div class="row">
-            <div class="card-pad col-lg-5 ">
-              <div class="type-effect">
-                <div class="text" id="type-text"></div>
-              </div>
-              
-              <div class="card">
-                <div class="card-content">
-                  <div class="card-body">
-                    <div class="media d-flex">
-                      <div class="media-body text-right">
-                        <h3>GDSC</h3>
-                        <h3>Phoenix</h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-            <div class="card-pad col-lg-2 ">
-            </div>
-            
-            <div class="card-pad col-lg-5 centint "> 
-            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class=""><img class="clubimg" src="images/club1.png" alt="First slide"></div>
-                </div>
-                <div class="carousel-item">
-                  <div class=""><img class="clubimg" src="images/club2.png" alt="Second slide"></div>
-                </div>
-    
-              </div>
-            </div>
-
-          </div>
-        </section>   
-        
-        <section id="skills">
-          <div class="skillcontainer">
-            <div class="skillpre"> 
-            </div>
-
-            <div class="skillek skillmain ">
-              <p>Skills</p>
-            </div>
-            
-            <div class="skilldo"> 
-              <div class="ga0"></div>
-            </div>
-          </div>
-
-          <div class="skillcontainer">
-            <div class="skillpre"> 
-            </div>
-            <div class="skillek ">
-              <p>HTML</p>
-            </div>
-            
-            <div class="skilldo"> 
-              <div class="ga1"></div>
-            </div>
-          </div>
-
-          <div class="skillcontainer">
-            <div class="skillpre"> 
-            </div>
-            <div class="skillek ">
-              <p>CSS</p>
-            </div>
-            
-            <div class="skilldo"> 
-              <div class="ga2"></div>
-            </div>
-          </div>
-
-          <div class="skillcontainer">
-            <div class="skillpre"> 
-            </div>
-            <div class="skillek ">
-              <p>C</p>
-            </div>
-            
-            <div class="skilldo"> 
-              <div class="ga3"></div>
-            </div>
-          </div>
-
-          <div class="skillcontainer">
-            <div class="skillpre"> 
-            </div>
-            <div class="skillek ">
-              <p>C++</p>
-            </div>
-            
-            <div class="skilldo"> 
-              <div class="ga4"></div>
-            </div>
-          </div>
-
-          <div class="skillcontainer">
-            <div class="skillpre"> 
-            </div>
-            <div class="skillek ">
-              <p>C#</p>
-            </div>
-            
-            <div class="skilldo"> 
-              <div class="ga5"></div>
-            </div>
-          </div>
-
-          <div class="skillcontainer">
-            <div class="skillpre"> 
-            </div>
-            <div class="skillek ">
-              <p>JS</p>
-            </div>
-            
-            <div class="skilldo"> 
-              <div class="ga6"></div>
-            </div>
-          </div>
-          
-          
-        </section>
-
-        <section id="education">
-
-          <div class="edu">
-            <div class="edufirst">
-                <h1 class="eduh1 ">Education</h1>
-            </div>
-            <div class="edusecond">
-              <div class="card1">
-                <div class="card-content d-flex flex-column align-items-center">
-                  <div class="h5">
-                    <p class="p1" > Shanti Gyan Niketan Sr. Sec. School </p>  
-                    <p class="p2" >Class I-XII</p>  
-                    <p class="p2" >X-94.8%</p>
-                    <p class="p2" >XII-91.8%</p>
-                  </div>
-                </div>
-            </div>
-            <div class="card1 card2">
-              <div class="card-content d-flex flex-column align-items-center">
-                <div class="h5">
-                  <p class="p1" > The LNM Institute of Information Technology </p>  
-                  <p class="p2" >UG B.Tech CCE</p>  
-                  <p class="p2" >I-Sem CGPA: 7.63</p>  
-                </div>
-              </div>
-            </div>
-
-
-            </div>
-          </div>
-        </section>
-
-        <section id="projects">
-
-          <div class="pro">
-            <div class="profirst">
-              <a href="https://github.com/VI5H4L/ZigZag-Game3" class="card3">
-                <img src="images/zig.jpg" class="card__image" alt="" />
-                <div class="card__overlay">
-                  <div class="card__header">
-                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
-                    <img class="card__thumb" src="images/unity.png" alt="" />
-                    <h3 class="card__title pr1">ZIGZAG </h3>
-                    <!-- <div class="card__header-text">
-                      
-                    </div> -->
-                  </div>
-                  <p class="card__description">A Hypercasual Endless Minimal Car Game</p>
-                </div>
-              </a>
-
-              <a href="https://github.com/VI5H4L/EATER-Game2" class="card3">
-                <img src="images/icon.jpg" class="card__image" alt="" />
-                <div class="card__overlay">
-                  <div class="card__header">
-                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
-                    <img class="card__thumb" src="images/unity.png" alt="" />
-                    <div class="card__header-text">
-                      <h3 class="card__title">EATER </h3>
-                    </div>
-                  </div>
-                  <p class="card__description">An Evergoing Eating Game Inspired by Snake Game</p>
-                </div>
-              </a>
-        
-            </div>
-
-            <div class="prosecond">
-              <h1 class="proh1 ">Projects</h1>
-            </div>
-
-          </div>
-        </section>
-
-        <section id="footer">
-          <h3>Contact Us</h3>
-          <div style="display:inline">
-            <div class="row">
-              <div class="col-md-12 col-sm-12 center-col text-center">
-                  <a href="https://www.facebook.com/profile.php?id=100009351615604" class="btn social-icon button" data-abc="true"><i class="fa fa-facebook btn-round"></i></a>
-                  <a href="https://twitter.com/VishalK16729672" class="btn social-icon button" data-abc="true"><i class="fa fa-twitter btn-round"></i></a>
-                  <a href="https://www.instagram.com/vishal.kr4004/" class="btn social-icon button" data-abc="true"><i class="fa fa-instagram btn-round"></i></a>
-                  <a href="https://github.com/VI5H4L" class="btn social-icon button" data-abc="true"><i class="fa fa-github-alt btn-round"></i></a>
-                  <a href="https://www.linkedin.com/in/vishal-k-b08392122/" class="btn social-icon button" data-abc="true"><i class="fa fa-linkedin btn-round"></i></a>
-              </div>
-          </div>
-          </div>
-          <h6>Made by V15H4L</h6>
-
-        </section>   
-
-        
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
+    <!-- JavaScript (optional) -->
+    <script src="script.js"></script>
 </body>
 </html>
