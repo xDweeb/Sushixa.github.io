@@ -5,62 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <style>
-        /* styles.css */
+        /* Reset some default styles */
+        body, h1, h2, h3, p {
+            margin: 0;
+            padding: 0;
+        }
 
-/* Reset some default styles */
-body, h1, h2, h3, p {
-    margin: 0;
-    padding: 0;
-}
+        /* Style the navigation bar */
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
 
-/* Style the navigation bar */
-nav {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-}
+        nav ul {
+            list-style: none;
+            padding: 1rem;
+        }
 
-nav ul {
-    list-style: none;
-    padding: 1rem;
-}
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
 
-nav ul li {
-    display: inline;
-    margin: 0 1rem;
-}
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
 
-nav a {
-    text-decoration: none;
-    color: #fff;
-}
+        /* Style the header section */
+        header {
+            text-align: center;
+            padding: 3rem;
+            background-color: #f2f2f2;
+        }
 
-/* Style the header section */
-header {
-    text-align: center;
-    padding: 3rem;
-    background-color: #f2f2f2;
-}
+        /* Style the projects section */
+        #projects {
+            padding: 2rem;
+        }
 
-/* Style the projects section */
-#projects {
-    padding: 2rem;
-}
+        .project {
+            margin-bottom: 2rem;
+        }
 
-.project {
-    margin-bottom: 2rem;
-}
+        .project img {
+            max-width: 100%;
+        }
 
-.project img {
-    max-width: 100%;
-}
-
-/* Style the contact section */
-#contact {
-    text-align: center;
-    padding: 2rem;
-    background-color: #f2f2f2;
-}
+        /* Style the contact section */
+        #contact {
+            text-align: center;
+            padding: 2rem;
+            background-color: #f2f2f2;
+        }
     </style>
 </head>
 <body>
@@ -101,6 +99,8 @@ header {
     </section>
 
     <!-- JavaScript (optional) -->
-    <script src="script.js"></script>
+    <script>
+        // You can add JavaScript interactivity here if needed.
+    </script>
 </body>
 </html>
