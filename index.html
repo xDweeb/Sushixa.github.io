@@ -1,499 +1,332 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assetds/bootstrap.min.css" />
-    <link rel="stylesheet" href="./assetds/aos.css" />
-    <link rel="stylesheet" href="./assetds/line-awesome.min.css" />
-    <link rel="stylesheet" href="./style.css" />
-<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
-    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
-    <title>Port-folio</title>
-  </head>
-  <body data-bs-spy="scroll" data-bs-target=".navbar">
-    <!-- nav -->
-    <nav class="navbar navbar-expand-lg navbar-bg navbar-dark fixed-top">
-      <div class="container flex-lg-column">
-        <a class="navbar-brand mb-lg-4" href="#">
-          <span class="h3 fw-bold d-block d-lg-none">Tom</span>
-          <img
-            src="./images/person.jpg"
-            class="d-none d-lg-block rounded-circle"
-            alt=""
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ms-auto flex-lg-column text-lg-center">
-            <a class="nav-link active" href="#home">Home</a>
-            <a class="nav-link" href="#services">Services</a>
-            <a class="nav-link" href="#work">Work</a>
-            <a class="nav-link" href="#about">About</a>
-            <a class="nav-link" href="#reviews">Reviews</a>
-            <a class="nav-link" href="#blog">Blog</a>
-            <a class="nav-link" href="#contact">Contact</a>
-          </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/i.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/ece0f4fd5e.js" crossorigin="anonymous"></script>
+</head>
+<body class="scrollbar">
+  <div class="loading">
+    <img class="loading-image" src="https://i.pinimg.com/originals/52/8d/d0/528dd0ec31df022de3328644632a78d9.gif" alt="Loading..." />
+   </div>
+    <section id="title">
+        <!-- Navigation Bar -->
+        <div class="container navcont">
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <a class="navbar-brand side" href="">PortFolio</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse ms-4 navi" id="navbarTogglerDemo02">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link " href="#interests">Interests</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="#clubs">Clubs</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="#footer">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
         </div>
-      </div>
-    </nav>
-    <!-- nav -->
 
-    <!-- conternt wrapper -->
-    <div id="content-wrapper">
-
-      <!-- home -->
-      <section id="home" class="full-height px-lg-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8">
-              <h1 class="display-4 fw-bold" data-aos="zoom-in-right">
-                I'M A <span class="text-brand"> UI/UX DESINGER </span> FROM
-                LONDEN,UK
-              </h1>
-              <p class="lead mt-2 mb-4" data-aos="zoom-in-right">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-                voluptatum deleniti nisi exercitationem,
-              </p>
-              <a href="#work" class="btn btn-brand me-3" data-aos="zoom-in">
-                Explore My Work</a
-              >
-              <a href="#" class="link-custom" data-aos="zoom-in">
-                Call :- +94 2556 235</a
-              >
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- home -->
-
-      <!-- service -->
-      <section id="services" class="full-height px-lg-5">
-        <div class="container">
-          <div class="row pb-4">
-            <div class="col-lg-8">
-              <h6 class="text-brand" data-aos="zoom-in-down">Services</h6>
-              <h2 data-aos="zoom-in-down">Services That I Provide</h2>
-            </div>
-          </div>
-          <div class="row gy-4">
-            <div class="col-md-4" data-aos="zoom-in">
-              <div class="service p-4 bg-base rounded-2 shadow-ef">
-                <div class="iconbox rounded-3">&#xf578;</div>
-                <h4 class="mt-4 mb-2">Branding</h4>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Exercitationem, corporis nam dolor hic atque eligendi
-                  doloremque,
-                </p>
-                <a href="#" class="link-custom">Read More</a>
-              </div>
-            </div>
-            <div class="col-md-4" data-aos="zoom-in">
-              <div class="service p-4 bg-base rounded-2 shadow-ef">
-                <div class="iconbox rounded-3">&#xf578;</div>
-                <h4 class="mt-4 mb-2">Ui/Ux Desingn</h4>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Exercitationem, corporis nam dolor hic atque eligendi
-                  doloremque,
-                </p>
-                <a href="#" class="link-custom">Read More</a>
-              </div>
-            </div>
-            <div class="col-md-4" data-aos="zoom-in">
-              <div class="service p-4 bg-base rounded-2 shadow-ef">
-                <div class="iconbox rounded-3">&#xf578;</div>
-                <h4 class="mt-4 mb-2">Web Desingn</h4>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Exercitationem, corporis nam dolor hic atque eligendi
-                  doloremque,
-                </p>
-                <a href="#" class="link-custom">Read More</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- service -->
-
-      <!-- work -->
-      <section id="work" class="full-height px-lg-5">
-        <div class="container">
-          <div class="row pb-4">
-            <div class="col-lg-8">
-              <h6 class="text-brand" data-aos="zoom-in-down">Work</h6>
-              <h2 data-aos="zoom-in-down">My Recent Projects </h2>
-            </div>
-            <div class="row ">
-              <div class="col-md-6 gy-5"  data-aos="zoom-in" data-aos-duration="1000">
-                <div class="card-custom rounded-4 bg-base shadow-ef">
-                  <div class="card-custom-image rounded-4">
-                    <img src="./images/project-1.jpg" alt="01" class="rounded-3">
-                  </div>
-                  <div class="card-custom-content p-4">
-                    <h6>Start Up Landing Page</h6>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur modi obcaecati expedita corrupti, illum ea?</p>
-                    <a href="#" class="link-custom">Read-More</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 gy-5"  data-aos="zoom-in" data-aos-duration="1000">
-                <div class="card-custom rounded-4 bg-base shadow-ef">
-                  <div class="card-custom-image rounded-4">
-                    <img src="./images/project-2.png" alt="0001" class="rounded-3">
-                  </div>
-                  <div class="card-custom-content p-4">
-                    <h6>Start Up Landing Page</h6>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur modi obcaecati expedita corrupti, illum ea?</p>
-                    <a href="#" class="link-custom">Read-More</a>
-                  </div>
-                </div>
-              </div>
-            <div class="row">
-              <div class="col-md-6 gy-5"  data-aos="zoom-in" data-aos-duration="1000">
-                <div class="card-custom rounded-4 bg-base shadow-ef">
-                  <div class="card-custom-image rounded-4">
-                    <img src="./images/project-3.png" alt="010" class="rounded-3">
-                  </div>
-                  <div class="card-custom-content p-4">
-                    <h6>Start Up Landing Page</h6>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur modi obcaecati expedita corrupti, illum ea?</p>
-                    <a href="#" class="link-custom">Read-More</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 gy-5"  data-aos="zoom-in" data-aos-duration="1000">
-                <div class="card-custom rounded-4 bg-base shadow-ef">
-                  <div class="card-custom-image rounded-4">
-                    <img src="./images/project-4.png" alt="0" class="rounded-3">
-                  </div>
-                  <div class="card-custom-content p-4">
-                    <h6>Start Up Landing Page</h6>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur modi obcaecati expedita corrupti, illum ea?</p>
-                    <a href="#" class="link-custom">Read-More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </div>
-      </section>
-      <!-- work -->
-
-      <!-- about -->
-      <section id="about" class="full-height px-lg-5">
-        <div class="container">
-          <div class="row pb-2">
-            <div class="col-lg-8">
-              <h6 class="text-brand" data-aos="zoom-in-down">About</h6>
-              <h2 data-aos="zoom-in-up">My Education & Experience </h2>
-            </div>
-            <div class="row gy-4">
-
-              <div class="col-lg-6">
-                <h3 class="mb-4" data-aos="zoom-in">Education</h3>
-                <div class="row gy-4">
-
-                  <div class="col-12"> 
-                    <div class="bg-base p-4 rounded-4 shadow-ef" data-aos="zoom-in" data-aos-duration="1200">
-                      <h5>This event fires on the scroll</h5>
-                      <p class="text-brand mb-3">Lorem, ipsum dolor sit</p>
-                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur modi obcaecati expedita</p>
-                    </div>
-                  </div>
-
-                  <div class="col-12"> 
-                    <div class="bg-base p-4 rounded-3 shadow-ef" data-aos="zoom-in" data-aos-duration="1200">
-                      <h5>This event fires on the scroll</h5>
-                      <p class="text-brand mb-3">Lorem, ipsum dolor sit</p>
-                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur modi obcaecati expedita</p>
-                    </div>
-                  </div>
-
-                  <div class="col-12"> 
-                    <div class="bg-base p-4 rounded-3 shadow-ef" data-aos="zoom-in" data-aos-duration="1200">
-                      <h5>This event fires on the scroll</h5>
-                      <p class="text-brand mb-3">Lorem, ipsum dolor sit</p>
-                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur modi obcaecati expedita</p>
-                    </div>
-                  </div>
-
-
-                </div>
-              </div>
-
-               <div class="col-lg-6">
-                <h3 class="mb-4" data-aos="zoom-in"> Experience</h3>
-                <div class="row gy-4">
-
-                  <div class="col-12"> 
-                    <div class="bg-base p-4 rounded-3 shadow-ef" data-aos="zoom-in" data-aos-duration="1200">
-                      <h5>This event fires on the scroll</h5>
-                      <p class="text-brand mb-3">Lorem, ipsum dolor sit</p>
-                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur modi obcaecati expedita</p>
-                    </div>
-                  </div>
-
-                  <div class="col-12"> 
-                    <div class="bg-base p-4 rounded-3 shadow-ef" data-aos="zoom-in" data-aos-duration="1200">
-                      <h5>This event fires on the scroll</h5>
-                      <p class="text-brand mb-3">Lorem, ipsum dolor sit</p>
-                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur modi obcaecati expedita</p>
-                    </div>
-                  </div>
-
-                  <div class="col-12"> 
-                    <div class="bg-base p-4 rounded-3 shadow-ef" data-aos="zoom-in" data-aos-duration="1200">
-                      <h5>This event fires on the scroll</h5>
-                      <p class="text-brand mb-3">Lorem, ipsum dolor sit</p>
-                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur modi obcaecati expedita</p>
-                    </div>
-                  </div>
-
-
-                </div>
-              </div>
-
-              
-
-            </div>
-        </div>
-      </section>
-      <!-- about -->
-
-      <!-- reviews -->
-       <section id="reviews" class="full-height px-lg-5">
-        <div class="container">
-
-          <div class="row pb-2">
-            <div class="col-lg-8">
-              <h6 class="text-brand" data-aos="zoom-in-down">Reviews</h6>
-              <h2 class="gy-5" data-aos="zoom-in-up">Customer Reviews </h2>
-            </div> 
-
-            <div class="row gy-4">
-
-              <div class="col-md-4" data-aos="zoom-in" data-aos-duration="1600">
-
-                <div class="review bg-base p-4 rounded-3">
-                  <div class="text-brand h5">
-                    <i class="las la-star"></i>
-                    <i class="las la-star"></i>
-                    <i class="las la-star"></i>
-                    <i class="las la-star"></i>
-                    <i class="las la-star-half"></i>
-                  </div>
-                  <p class="my-3">There are plenty of ready-to-use icons, and they are awesome! But why not to use ready-to-use preloaders as well? We are all about making your life easier, here are some dope helpful tools: </p>
-                  <div class="person">
-                    <h5 class="mb-0">Gunapala</h5>
-                    <p class="mb-0">Twitter</p>
-                  </div>
-                </div>
-
-              </div>
-
-              <div class="col-md-4" data-aos="zoom-in" data-aos-duration="1600">
-
-                <div class="review bg-base p-4 rounded-3">
-                  <div class="text-brand h5">
-                    <i class="las la-star"></i>
-                    <i class="las la-star"></i>
-                    <i class="las la-star"></i>
-                    <i class="las la-star"></i>
-                    <i class="las la-star-half"></i>
-                  </div>
-                  <p class="my-3">There are plenty of ready-to-use icons, and they are awesome! But why not to use ready-to-use preloaders as well? We are all about making your life easier, here are some dope helpful tools: </p>
-                  <div class="person">
-                    <h5 class="mb-0">Gunapala</h5>
-                    <p class="mb-0">Twitter</p>
-                  </div>
-                </div>
-
-              </div>
-
-              <div class="col-md-4" data-aos="zoom-in" data-aos-duration="1600">
-
-                <div class="review bg-base p-4 rounded-3">
-                  <div class="text-brand h5">
-                    <i class="las la-star"></i>
-                    <i class="las la-star"></i>
-                    <i class="las la-star"></i>
-                    <i class="las la-star"></i>
-                    <i class="las la-star-half"></i>
-                  </div>
-                  <p class="my-3">There are plenty of ready-to-use icons, and they are awesome! But why not to use ready-to-use preloaders as well? We are all about making your life easier, here are some dope helpful tools: </p>
-                  <div class="person">
-                    <h5 class="mb-0">Gunapala</h5>
-                    <p class="mb-0">Twitter</p>
-                  </div>
-                </div>
-
-              </div>
-
-            </div>
+        <div class="intro centered">
+            <button class="pallete pl4"></button>
+            <button class="pallete pl1"></button>
+            <button class="pallete pl2"></button>
+            <button class="pallete pl3"></button>
+            
+            <h4>Hello There,</h4>
+            <h1>I'm Vishal Kumar</h1>
+            <h3>A Tech Enthusiast !!</h3>
+            <br>
+            <!-- I study at The LNM Institute of Information Technology.... -->
+            <h3>The greatest glory in living lies not in never falling, but in rising every time we fall. </h3>
+            <br>
+            <a class="titlebtn" href="mailto:21ucc116@lnmiit.ac.in">Hire Me</a>
             
         </div>
-      </section>
-      <!-- reviews -->
+    </section>
 
-      <!-- blog -->
-       <section id="blog" class="full-height px-lg-5">
-        <div class="container">
-
-          <div class="row pb-2">
-
-            <div class="col-lg-8">
-              <h6 class="text-brand" data-aos="zoom-in-down" data-aos-duration="1000">Blog</h6>
-              <h2 class="gy-5" data-aos="zoom-in-up">Our Blog </h2>
-            </div>
-
-            <div class="row gy-4">
-
-              <div class="col-md-4" data-aos="zoom-in" data-aos-duration="1600">
-                <div class="card-custom rounded-3 bg-base shadow-ef">
-
-                  <div class="card-custom-image rounded-3">
-                    <img src="./images/blog-post-1.jpg" alt="01" class="rounded-0">
-                  </div>
-
-                  <div class="card-custom-content p-4">
-                    <p class="text-brand mb-2">Jun 14, 2022</p>
-                    <h5 class="mb-4">Swap Font Awesome for modern line icons</h5>
-                    <a href="#" class="link-custom">Read-More</a>
-                  </div>
-
-                </div>
-
-              </div>
-
-              <div class="col-md-4" data-aos="zoom-in" data-aos-duration="1600">
-                <div class="card-custom rounded-3 bg-base shadow-ef">
-
-                  <div class="card-custom-image rounded-3">
-                    <img src="./images/blog-post-2.jpg" alt="01" class="rounded-0">
-                  </div>
-
-                  <div class="card-custom-content p-4">
-                    <p class="text-brand mb-2">Jun 14, 2022</p>
-                    <h5 class="mb-4">Swap Font Awesome for modern line icons</h5>
-                    <a href="#" class="link-custom">Read-More</a>
-                  </div>
-
-                </div>
-
-              </div>
-
-              <div class="col-md-4" data-aos="zoom-in" data-aos-duration="1600">
-                <div class="card-custom rounded-3 bg-base shadow-ef">
-
-                  <div class="card-custom-image rounded-3">
-                    <img src="./images/blog-post-3.jpg" alt="01" class="rounded-0">
-                  </div>
-
-                  <div class="card-custom-content p-4">
-                    <p class="text-brand mb-2">Jun 14, 2022</p>
-                    <h5 class="mb-4">Swap Font Awesome for modern line icons</h5>
-                    <a href="#" class="link-custom">Read-More</a>
-                  </div>
-
-                </div>
-
-              </div>
-
-           
-
-          </div>
-        </div>
-      </section>
-      <!-- blog -->
-
-       <!-- contact -->
-       <section id="contact" class="full-height px-lg-5">
-        <div class="container">
-
-          <div class="row justify-content-center text-center ">
-
-            <div class="col-lg-8 pb-4">
-              <h6 class="text-brand" data-aos="zoom-in-down" data-aos-duration="1000">Contact</h6>
-              <h2 class="gy-5" data-aos="zoom-in-up">Ask ?. Your Poblems From Me </h2>
-            </div>
-
-            <div class="col-lg-8">
-              <form action="#" class="row g-lg-3 gy-3" data-aos="zoom-in" data-aos-duration="1500">
-                <div class="form-group col-md-6">
-                  <input type="text" class="form-control" placeholder="Enter Your Name">
-                </div>
-
-                <div class="form-group col-md-6">
-                  <input type="email" class="form-control" placeholder="Enter Your Email">
-                </div>
-
-                <div class="form-group col-md-12">
-                  <input type="text" class="form-control" placeholder="Enter Subject">
-                </div>
-
-                <div class="form-group col-md-12">
-                  <textarea name="" rows="4" class="form-control" placeholder="Enter your Massage"></textarea>
-                </div>
-
-                <div class="form-group col-md-12 d-grid">
-                  <button type="submit" class="btn btn-brand">Contact Me</button>
-                </div>
-
-                <div class="form-group col-md-12 d-grid">
-                  <button type="reset" class="btn btn-brand">Clear All</button>
-                </div>
-
-              </form>
-            </div>
-
-          </div>
-           
-        </div>
-      </section>
-      <!-- contact -->
-
-      <!-- footer -->
-      <footer class="py-5 px-lg-5">
-            <div class="container">
-                <div class="row gy-4 justify-content-between">
-                    <div class="col-auto">
-                        <p class="mb-0">Designed by <a href="#" class="fw-bold">SA7MAN</a></p>
-                    </div>
-                    <div class="col-auto">
-                        <div class="social-icons">
-                            <a href="#"><i class="lab la-twitter"></i></a>
-                            <a href="#"><i class="lab la-instagram"></i></a>
-                            <a href="#"><i class="lab la-dribbble"></i></a>
-                            <a href="#"><i class="lab la-github"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-      <!-- footer -->
+    <section id="interests">
+        
       
+        <div class="row disp">
+          <div class="card-pad col-lg-4 intcards ">
+            <div class="card" style="width: 16rem;">
+                <ul class="list-group list-group-flush">
+                  <li class="active list-group-item int 1">Web Development</li>
+                  <li class="list-group-item int 2">Graphic Designing</li>
+                  <li class="list-group-item int 3">Game Development</li>
+                  <li class="list-group-item int 4">Competitive Coding</li>
+                  <li class="list-group-item int 5">Cybersecurity</li>
+                </ul>
+              </div>
+          </div>
+          
+          <div class="card-pad col-lg-7 intimg ">
+            <div ><img class="int1" src="images/i1.png" alt=""></div>
+          </div>
+          
+          <div class="card-pad col-lg-1 inth1 ">
+            <h1>Interests</h1>
+          </div>
+          
+        </div>
+    </section>
 
-    </div>
+      <section id="clubs">
+          <div class="row">
+            <div class="card-pad col-lg-5 ">
+              <div class="type-effect">
+                <div class="text" id="type-text"></div>
+              </div>
+              
+              <div class="card">
+                <div class="card-content">
+                  <div class="card-body">
+                    <div class="media d-flex">
+                      <div class="media-body text-right">
+                        <h3>GDSC</h3>
+                        <h3>Phoenix</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-    <!-- conternt wrapper -->
+            </div>
 
-    <script src="./assetds/bootstrap.bundle.min.js"></script>
-    <script src="./assetds/aos.js"></script>
-    <script src="./assetds/main.js"></script>
-  </body>
+            <div class="card-pad col-lg-2 ">
+            </div>
+            
+            <div class="card-pad col-lg-5 centint "> 
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class=""><img class="clubimg" src="images/club1.png" alt="First slide"></div>
+                </div>
+                <div class="carousel-item">
+                  <div class=""><img class="clubimg" src="images/club2.png" alt="Second slide"></div>
+                </div>
+    
+              </div>
+            </div>
+
+          </div>
+        </section>   
+        
+        <section id="skills">
+          <div class="skillcontainer">
+            <div class="skillpre"> 
+            </div>
+
+            <div class="skillek skillmain ">
+              <p>Skills</p>
+            </div>
+            
+            <div class="skilldo"> 
+              <div class="ga0"></div>
+            </div>
+          </div>
+
+          <div class="skillcontainer">
+            <div class="skillpre"> 
+            </div>
+            <div class="skillek ">
+              <p>HTML</p>
+            </div>
+            
+            <div class="skilldo"> 
+              <div class="ga1"></div>
+            </div>
+          </div>
+
+          <div class="skillcontainer">
+            <div class="skillpre"> 
+            </div>
+            <div class="skillek ">
+              <p>CSS</p>
+            </div>
+            
+            <div class="skilldo"> 
+              <div class="ga2"></div>
+            </div>
+          </div>
+
+          <div class="skillcontainer">
+            <div class="skillpre"> 
+            </div>
+            <div class="skillek ">
+              <p>C</p>
+            </div>
+            
+            <div class="skilldo"> 
+              <div class="ga3"></div>
+            </div>
+          </div>
+
+          <div class="skillcontainer">
+            <div class="skillpre"> 
+            </div>
+            <div class="skillek ">
+              <p>C++</p>
+            </div>
+            
+            <div class="skilldo"> 
+              <div class="ga4"></div>
+            </div>
+          </div>
+
+          <div class="skillcontainer">
+            <div class="skillpre"> 
+            </div>
+            <div class="skillek ">
+              <p>C#</p>
+            </div>
+            
+            <div class="skilldo"> 
+              <div class="ga5"></div>
+            </div>
+          </div>
+
+          <div class="skillcontainer">
+            <div class="skillpre"> 
+            </div>
+            <div class="skillek ">
+              <p>JS</p>
+            </div>
+            
+            <div class="skilldo"> 
+              <div class="ga6"></div>
+            </div>
+          </div>
+          
+          
+        </section>
+
+        <section id="education">
+
+          <div class="edu">
+            <div class="edufirst">
+                <h1 class="eduh1 ">Education</h1>
+            </div>
+            <div class="edusecond">
+              <div class="card1">
+                <div class="card-content d-flex flex-column align-items-center">
+                  <div class="h5">
+                    <p class="p1" > Shanti Gyan Niketan Sr. Sec. School </p>  
+                    <p class="p2" >Class I-XII</p>  
+                    <p class="p2" >X-94.8%</p>
+                    <p class="p2" >XII-91.8%</p>
+                  </div>
+                </div>
+            </div>
+            <div class="card1 card2">
+              <div class="card-content d-flex flex-column align-items-center">
+                <div class="h5">
+                  <p class="p1" > The LNM Institute of Information Technology </p>  
+                  <p class="p2" >UG B.Tech CCE</p>  
+                  <p class="p2" >I-Sem CGPA: 7.63</p>  
+                </div>
+              </div>
+            </div>
+
+
+            </div>
+          </div>
+        </section>
+
+        <section id="projects">
+
+          <div class="pro">
+            <div class="profirst">
+              <a href="https://github.com/VI5H4L/ZigZag-Game3" class="card3">
+                <img src="images/zig.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                  <div class="card__header">
+                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
+                    <img class="card__thumb" src="images/unity.png" alt="" />
+                    <h3 class="card__title pr1">ZIGZAG </h3>
+                    <!-- <div class="card__header-text">
+                      
+                    </div> -->
+                  </div>
+                  <p class="card__description">A Hypercasual Endless Minimal Car Game</p>
+                </div>
+              </a>
+
+              <a href="https://github.com/VI5H4L/EATER-Game2" class="card3">
+                <img src="images/icon.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                  <div class="card__header">
+                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
+                    <img class="card__thumb" src="images/unity.png" alt="" />
+                    <div class="card__header-text">
+                      <h3 class="card__title">EATER </h3>
+                    </div>
+                  </div>
+                  <p class="card__description">An Evergoing Eating Game Inspired by Snake Game</p>
+                </div>
+              </a>
+        
+            </div>
+
+            <div class="prosecond">
+              <h1 class="proh1 ">Projects</h1>
+            </div>
+
+          </div>
+        </section>
+
+        <section id="footer">
+          <h3>Contact Us</h3>
+          <div style="display:inline">
+            <div class="row">
+              <div class="col-md-12 col-sm-12 center-col text-center">
+                  <a href="https://www.facebook.com/profile.php?id=100009351615604" class="btn social-icon button" data-abc="true"><i class="fa fa-facebook btn-round"></i></a>
+                  <a href="https://twitter.com/VishalK16729672" class="btn social-icon button" data-abc="true"><i class="fa fa-twitter btn-round"></i></a>
+                  <a href="https://www.instagram.com/vishal.kr4004/" class="btn social-icon button" data-abc="true"><i class="fa fa-instagram btn-round"></i></a>
+                  <a href="https://github.com/VI5H4L" class="btn social-icon button" data-abc="true"><i class="fa fa-github-alt btn-round"></i></a>
+                  <a href="https://www.linkedin.com/in/vishal-k-b08392122/" class="btn social-icon button" data-abc="true"><i class="fa fa-linkedin btn-round"></i></a>
+              </div>
+          </div>
+          </div>
+          <h6>Made by V15H4L</h6>
+
+        </section>   
+
+        
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
 </html>
-
-
